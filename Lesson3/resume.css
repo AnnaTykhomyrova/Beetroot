@@ -1,0 +1,65 @@
+body {
+    background-color: antiquewhite;
+}
+div,
+h1,
+h2 {
+    text-align: center;
+}
+h1 {
+    color:blue;
+    font-family: fantasy;
+    font-size: larger;
+}
+h2 {
+    color:purple;
+    font-family: serif;
+    font-size: large;
+}
+hr {
+    color: orangered;
+}
+.text {
+    font-style: italic;
+    text-align: justify;
+    margin-left: 25px;
+    border-left: 2px solid navy;
+    padding-left: 15px;
+    border-right: 2px solid navy;
+    padding-right: 15px;
+    margin-right: 20px;
+}
+img {
+    width: 150px;
+}
+.paragraph {
+    background-color: orange;
+    font-family: cursive;
+}
+.paragraph2 {
+    margin-left: 15px;
+}
+li:first-child {
+    color: brown;
+}
+li:last-child {
+    color: purple;
+}
+li:nth-child(2) {
+    color: darkblue;
+}
+li:nth-child(3) {
+    color: cornflowerblue;
+}
+li:nth-child(4) {
+    color: darkolivegreen;
+}
+li:nth-child(5) {
+    color: lightsalmon;
+}
+li:nth-child(6) {
+    color: darkred;
+}
+li:nth-child(7) {
+    color: darkgoldenrod;
+}
