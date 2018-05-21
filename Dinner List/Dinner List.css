@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    transition: all .1s ease-in;
+    font-family: “Trebuchet MS”, Trebuchet, Arial, sans-serif;
+}
+body {
+    height: 100%;
+}
+body {
+    background-color: #3b3f45;
+    text-align: center;
+}
+div {
+    width: 600px;
+    margin-left: 300px;
+    padding: 20px;
+    text-align: left;
+}
+header {
+    background-color: #4a4f56;
+    color: #eb7e7f;
+    text-align: center;
+}
+div:nth-child(1),
+div:nth-child(3),
+div:nth-child(5) {
+    background-color: #88839e;
+    color: #f4f9f9;
+}
+div:nth-child(2),
+div:nth-child(4),
+div:nth-child(6) {
+    background-color: #7a7593;
+    color: #f4f9f9;
+}
+header p {
+    font-size: 20px;
+}
+footer {
+    background-color: #4c4e57;
+    color: #eb7e7f;
+    width: 600px;
+    height: 60px;
+    font-size: 20px;
+    margin-left: 300px;
+    margin-top: 20px;
+    padding: 20px;
+}
+span {
+    color: #c0cbd6;
+    font-size: small;
+}
+span:before {
+    content:"(";
+}
+span:after {
+    content: ")";
+}
+div:hover {
+    background-color: #665478;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+}
+div:active {
+    background-color: #ef887a;
+}
+input[type="checkbox"]:checked + label.checked {
+    color: #a3a0b5;
+    text-decoration: line-through;
+}
+input[type="checkbox"]:checked + label.checked span {
+    color: #a3a0b5;
+    text-decoration: line-through;
+}
