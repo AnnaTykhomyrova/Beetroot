@@ -2,24 +2,32 @@
     box-sizing: border-box;
     font-family: Arial, sans-serif;
     color: #c2c2c2;
+    margin: 0;
+    padding: 0;
+}
+header,
+main {
+    width:80%;
+    margin: 0 auto;
 }
 body {
     background-color: #f1f1f1;
+    height: 100%;
 }
 input[type=search] {
     border: hidden;
-    width: 89%;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    width: 80%;
+    padding-top: 20px;
+    padding-bottom: 20px;
     padding-left: 0;
     background-color: #f1f1f1;
     font-family: Arial, sans-serif;
-    font-size: 120px;
+    font-size: 100px;
     color: rgba(118,117,128,0.1);
 }
 input[type=image] {
     background-color: #f1f1f1;
-
+    height: 80px;
 }
 .item a,
 .notround a,
@@ -45,9 +53,9 @@ h3 {
     text-transform: uppercase;
 }
 .column {        /* все колонки */
+    margin:0 15px;
     display: inline-block;
-    width: 33%;
-    /*border: 1px solid black;*/
+    width: 30%;
     font-size: 14px;
 }
 .fontnull {        /* все колонки */
@@ -55,7 +63,8 @@ h3 {
 }
 .item,
 .notround,
-.notround2 {                /*  колонка 1,2,3 */
+.notround2 { /*  колонка 1,2,3 */
+    margin: 3px 0;
     background-color: rgba(118,117,128,0.05);
     border-radius: 5px;
 }
