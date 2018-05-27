@@ -19,24 +19,17 @@ header {
     padding: 0;
     color: #fff;
 }
-ul {
-    width: 80%;
-    margin: 0 auto;
-    padding: 0;
-}
 li {
     display: inline-block;
     text-align: center;
-    /*outline: 4px solid white;*/
     padding: 30px 10px;
+    border: 2px solid white;
 }
 div {
     font-size: 0;
     width: 80%;
     margin: 0 auto;
-}
-li {
-    border: 2px solid white;
+    padding: 0;
 }
 .one li,
 .two li,
