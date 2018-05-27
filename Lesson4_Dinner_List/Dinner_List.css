@@ -2,17 +2,22 @@
     box-sizing: border-box;
     transition: all .1s ease-in;
     font-family: “Trebuchet MS”, Trebuchet, Arial, sans-serif;
+    margin:0;
+    padding: 0;
 }
-body {
+body,
+html{
     height: 100%;
+
 }
 body {
     background-color: #3b3f45;
     text-align: center;
+    border: 10px solid white;
 }
 div {
     width: 600px;
-    margin-left: 300px;
+    margin: 0 auto ;
     padding: 20px;
     text-align: left;
 }
@@ -20,6 +25,7 @@ header {
     background-color: #4a4f56;
     color: #eb7e7f;
     text-align: center;
+    margin-bottom: 20px;
 }
 div:nth-child(1),
 div:nth-child(3),
@@ -40,11 +46,11 @@ footer {
     background-color: #4c4e57;
     color: #eb7e7f;
     width: 600px;
-    height: 60px;
-    font-size: 20px;
-    margin-left: 300px;
-    margin-top: 20px;
     padding: 20px;
+    margin: 20px auto 0;
+}
+footer p {
+    font-size: 20px;
 }
 span {
     color: #c0cbd6;

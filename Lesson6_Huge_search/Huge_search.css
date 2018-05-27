@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    color: #c2c2c2;
+}
+body {
+    background-color: #f1f1f1;
+}
+input[type=search] {
+    border: hidden;
+    width: 89%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 0;
+    background-color: #f1f1f1;
+    font-family: Arial, sans-serif;
+    font-size: 120px;
+    color: rgba(118,117,128,0.1);
+}
+input[type=image] {
+    background-color: #f1f1f1;
+
+}
+.item a,
+.notround a,
+.notround2 a {         /*  колонка 1,2,3 */
+    text-transform: none;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+.item img {         /*  колонка 1 */
+    display: inline-block;
+    margin: 0;
+    height: 50px;
+    border-radius: 50%;
+}
+.notround img,
+.notround2 img {        /*  колонка 2,3 */
+    display: inline-block;
+    margin: 0;
+    height: 50px;
+}
+h3 {
+    text-transform: uppercase;
+}
+.column {        /* все колонки */
+    display: inline-block;
+    width: 33%;
+    /*border: 1px solid black;*/
+    font-size: 14px;
+}
+.fontnull {        /* все колонки */
+    font-size: 0;
+}
+.item,
+.notround,
+.notround2 {                /*  колонка 1,2,3 */
+    background-color: rgba(118,117,128,0.05);
+    border-radius: 5px;
+}
+.item span,
+.notround span,
+.notround2 span {            /*  колонка 1,2,3 */
+    display: inline-block;
+    line-height: 60px;
+    vertical-align: top;
+}
+span:hover {                  /*меняется цвет ссылки при наведении курсора*/
+    /* background-color: rgba(118,117,128,0.1);*/
+    color: #ec5a62;
+}
+.item:hover,
+.notround:hover,
+.notround2:hover {                /*меняется цвет фона ссылки при наведении курсора*/
+    background-color: rgba(118,117,128,0.1);
+}
