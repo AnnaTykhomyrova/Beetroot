@@ -14,7 +14,7 @@ body {
     border: 20px solid #2B81AC;
 }
 header {
-    width: 80%;
+    width: 60%;
     margin: 20px auto 25px;
     padding: 0;
     color: #fff;
@@ -27,9 +27,10 @@ li {
 }
 div {
     font-size: 0;
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
     padding: 0;
+    border: 2px solid white;
 }
 .one li,
 .two li,
@@ -40,14 +41,18 @@ div {
 }
 .lisbon {
     background-color: #3399cc;
-    width: 40%;
+}
+div li:first-child {
+    width: 50%;
 }
 .lisbon span {
     background-color: #3399cc;
 }
 .paris {
     background-color: #33cccc;
-    width: 20%;
+}
+div li:nth-child(2) {
+    width: 25%;
 }
 .paris span,
 .paris span sup,
@@ -56,7 +61,9 @@ div {
 }
 .belgrade {
     background-color: #996699;
-    width: 20%;
+}
+div li:nth-child(3) {
+    width: 25%;
 }
 .belgrade span,
 .belgrade span sup,
@@ -65,7 +72,9 @@ div {
 }
 .moscow {
     background-color: #c24747;
-    width: 20%;
+}
+.two li:first-child {
+    width: 25%;
 }
 .moscow span,
 .moscow span sup,
@@ -74,7 +83,9 @@ div {
 }
 .telaviv {
     background-color: #e2674a;
-    width: 20%;
+}
+.two li:nth-child(2) {
+    width: 25%;
 }
 .telaviv span,
 .telaviv span sup,
@@ -83,7 +94,9 @@ div {
 }
 .cair {
     background-color: #FFCC66;
-    width: 20%;
+}
+.two li:nth-child(3) {
+    width: 25%;
 }
 .cair span,
 .cair span sup,
@@ -92,7 +105,9 @@ div {
 }
 .newyork {
     background-color: #99CC99;
-    width: 20%;
+}
+.two li:nth-child(4) {
+    width: 25%;
 }
 .newyork  span,
 .newyork  span sup,
@@ -101,7 +116,9 @@ div {
 }
 .newdelhi {
     background-color: #669999;
-    width: 20%;
+}
+.three li:first-child {
+    width: 25%;
 }
 .newdelhi  span,
 .newdelhi  span sup,
@@ -110,7 +127,9 @@ div {
 }
 .sanfrancisco {
     background-color: #CC6699;
-    width: 40%;
+}
+.three li:nth-child(2) {
+    width: 50%;
 }
 .sanfrancisco  span,
 .sanfrancisco  span sup,
@@ -119,7 +138,9 @@ div {
 }
 .tokyo {
     background-color: #339966;
-    width: 20%;
+}
+.three li:nth-child(3) {
+    width: 25%;
 }
 .tokyo  span,
 .tokyo  span sup,
@@ -128,7 +149,9 @@ div {
 }
 .sydney {
     background-color: #666699;
-    width: 80%;
+}
+.four li:first-child {
+    width: 100%;
 }
 .sydney  span,
 .sydney  span sup,
@@ -142,8 +165,15 @@ div li:hover {
     opacity: 1;
 }
 footer {
-    width: 80%;
+    width: 60%;
     margin: 25px auto 0;
     padding: 0;
     color: #fff;
+}
+span,
+div .wi {
+    color: #C5CBD9;
+}
+.wi {
+    font-size: 25px;
 }
