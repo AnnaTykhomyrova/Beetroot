@@ -1,0 +1,153 @@
+* {
+    margin:0;
+    padding:0;
+}
+body {
+    height:100%;
+}
+.conteiner {
+    position:relative;
+    background: #E3CCAB;
+    width: 800px;
+    height: 800px;
+    margin: auto;
+    border:5px solid #171312;
+}
+.row1,
+.row2,
+.row3,
+.row4,
+.row5,
+.row6,
+.row7,
+.row8 {
+    position:absolute;
+    height:100px;
+    left: 0;
+    right:0;
+}
+.row1 {
+    top:0;
+}
+.row1 div {
+    width:100px;
+    height:100px;
+    position:absolute;
+}
+.row1 div:first-child,
+.row1 div:nth-child(2),
+.row1 div:nth-child(3),
+.row1 div:nth-child(4),
+.row1 div:nth-child(5),
+.row1 div:nth-child(6),
+.row1 div:nth-child(7),
+.row1 div:nth-child(8) {
+    top:0;
+}
+.row1 div:nth-child(2) {
+    left:100px;
+}
+.row1 div:nth-child(3) {
+    left:200px;
+}
+.row1 div:nth-child(4) {
+    left:300px;
+}
+.row1 div:nth-child(5) {
+    left:400px;
+}
+.row1 div:nth-child(6) {
+    left:500px;
+}
+.row1 div:nth-child(7) {
+    left:600px;
+}
+.row1 div:nth-child(8) {
+    left:700px;
+}
+.row1 div:nth-child(2n),
+.row3 div:nth-child(2n),
+.row5 div:nth-child(2n),
+.row7 div:nth-child(2n) {
+    background-color:#E3CCAB;
+}
+.row1 div:nth-child(2n+1),
+.row3 div:nth-child(2n+1),
+.row5 div:nth-child(2n+1),
+.row7 div:nth-child(2n+1) {
+    background-color:#171312;
+}
+.row2 {
+    top:100px;
+}
+.row2 div:nth-child(2n),
+.row4 div:nth-child(2n),
+.row6 div:nth-child(2n),
+.row8 div:nth-child(2n) {
+    background-color:#171312;
+}
+.row2 div:nth-child(2n+1),
+.row4 div:nth-child(2n+1),
+.row6 div:nth-child(2n+1),
+.row8 div:nth-child(2n+1) {
+    background-color:#E3CCAB;
+}
+.row3 {
+    top:200px;
+}
+.row4 {
+    top:300px;
+}
+.row5 {
+    top:400px;
+}
+.row6 {
+    top:500px;
+}
+.row7 {
+    top:600px;
+}
+.row8 {
+    top:700px;
+}
+.circle1 div,
+.circle2 div,
+.circle3 div,
+.circle4 div,
+.circle5 div,
+.circle6 div {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+}
+.circle1 div:nth-child(2n+1),
+.circle2 div:nth-child(2n),
+.circle3 div:nth-child(2n+1) {
+    background: saddlebrown;
+}
+.circle1 div:nth-child(2n+1) {
+    top:0;
+}
+.circle2 div:nth-child(2n) {
+    top:100px;
+}
+.circle3 div:nth-child(2n+1) {
+    top:200px;
+}
+.circle4 div:nth-child(2n),
+.circle5 div:nth-child(2n+1),
+.circle6 div:nth-child(2n) {
+    background: #B22B2D;
+}
+.circle4 div:nth-child(2n) {
+    top:500px;
+}
+.circle5 div:nth-child(2n+1) {
+    top:600px;
+}
+.circle6 div:nth-child(2n) {
+    top:700px;
+}

@@ -1,11 +1,32 @@
+@font-face {
+    font-family: 'FuturaPTHeavy';
+    src: url('../fonts/FuturaPTHeavy.otf');
+    /*format('otf')*/
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ProximaNova-Regular';
+    src: url('../fonts/ProximaNova-Regular.eot');
+    /*format('eot')*/
+    font-weight: normal;
+    font-style: normal;
+}
 * {
     margin:0;
     padding:0;
-
 }
 body {
     background-color: grey;
     font-family: Georgia, Arial, sans-serif;
+}
+div.vertline {
+    border-left: 2px solid #e8eced;
+    position: absolute;
+    top: 145px;
+    height: 750px;
+    bottom: 0;
+    left: 140px;
 }
 .box {
     display: block;
@@ -18,7 +39,6 @@ body {
     padding:203px 125px 42px;
     margin-top: 145px;
 }
-
 .box p:first-child,
 .box h1,
 .box p:nth-child(3) {
@@ -36,7 +56,6 @@ body {
     font-size: 20pt;
     font-style: italic;
 }
-
 .box p:nth-child(5),
 .box p:nth-child(7){
     font-size: 15pt;
@@ -48,8 +67,8 @@ body {
     right:0;
     background-color: #181818;
     color:#FEFEFE;
-    width: 815px;
-    height: 140px;
+    width: 700px;
+    height: 100px;
     text-align: left;
     padding-left: 60px;
     padding-top: 50px;
@@ -62,16 +81,23 @@ body {
     font-size: 25pt;
 }
 .line {
-    height:25px;
-    width:815px;
+    height:15px;
+    width:700px;
     border-bottom:2px solid #303030;
     padding-left:0;
 }
-span {
-    position:absolute;
-    right:0;
-    top:238px;
-    width: 810px;
-    height: 78px;
-    background-color: #FBC02D;
+div.imageline {
+    position: absolute;
+    background-color: #f8bd2c;
+    right: 0;
+    top: 198px;
+    padding: 10px 0 10px 20px;
+}
+.imageline a img{
+    height: 30px;
+    margin-right: 20px;
+    opacity: 0.5;
+}
+.imageline a img:hover{
+    opacity: 1;
 }
