@@ -17,27 +17,34 @@
     padding:0;
 }
 body {
+    height:100%;
+}
+body {
     background-color: grey;
     font-family: Georgia, Arial, sans-serif;
+}
+.vertline p:first-child {
+    font-family: "ProximaNova-Regular", Arial, sans-serif ;
+}
+.vertline h1:first-child {
+    font-family: "FuturaPTHeavy", Arial, sans-serif ;
 }
 div.vertline {
     border-left: 2px solid #e8eced;
     position: absolute;
-    top: 145px;
-    height: 750px;
+    top: 120px;
+    height: 570px;
     bottom: 0;
-    left: 140px;
+    left: 245px;
 }
 .box {
     display: block;
     background-color: #FFFFFF;
     color: black;
-    height: 505px;
-    width: 810px;
-    margin-left: 70px;
-    margin-right: 70px;
-    padding:203px 125px 42px;
-    margin-top: 145px;
+    height: 380px;
+    width: 700px;
+    margin: 120px auto 0 ;
+    padding:180px 100px 10px;
 }
 .box p:first-child,
 .box h1,
@@ -48,16 +55,24 @@ div.vertline {
     color: #8F8F8F;
 }
 .box h1 {
-    font-size: 30pt;
+    font-size: 35pt;
+    line-height: 35pt;
     text-transform: uppercase;
+    padding-top: 30pt;
+    padding-bottom: 5px;
 }
-.box p:nth-child(3) {
+.box p:nth-child(4) { /*Where am I going? How long have I got?*/
     color: #8F8F8F;
-    font-size: 20pt;
+    font-size: 15pt;
     font-style: italic;
+    padding-bottom: 13px;
 }
-.box p:nth-child(5),
-.box p:nth-child(7){
+.box p:nth-child(2) {  /*Roy Batty, 2019*/
+    color: #8F8F8F;
+    font-size: 15pt;
+}
+.box p:nth-child(6),
+.box p:nth-child(8){
     font-size: 15pt;
     text-align: justify;
 }
@@ -67,11 +82,11 @@ div.vertline {
     right:0;
     background-color: #181818;
     color:#FEFEFE;
-    width: 700px;
+    width: 900px;
     height: 100px;
     text-align: left;
     padding-left: 60px;
-    padding-top: 50px;
+    padding-top: 40px;
 }
 .aside p:first-child {
     color: #777777;
@@ -81,8 +96,8 @@ div.vertline {
     font-size: 25pt;
 }
 .line {
-    height:15px;
-    width:700px;
+    height:10px;
+    width:900px;
     border-bottom:2px solid #303030;
     padding-left:0;
 }
@@ -90,8 +105,9 @@ div.imageline {
     position: absolute;
     background-color: #f8bd2c;
     right: 0;
-    top: 198px;
-    padding: 10px 0 10px 20px;
+    top: 188px;
+    width: 750px;
+    padding: 15px 0 15px 25px;
 }
 .imageline a img{
     height: 30px;
