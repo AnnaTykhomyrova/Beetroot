@@ -29,7 +29,14 @@ body {
 .row1 {
     top:0;
 }
-.row1 div {
+.row1 div,
+.row2 div,
+.row3 div,
+.row4 div,
+.row5 div,
+.row6 div,
+.row7 div,
+.row8 div {
     width:100px;
     height:100px;
     position:absolute;
@@ -80,6 +87,16 @@ body {
 .row2 {
     top:100px;
 }
+.row2 div:first-child,
+.row2 div:nth-child(2),
+.row2 div:nth-child(3),
+.row2 div:nth-child(4),
+.row2 div:nth-child(5),
+.row2 div:nth-child(6),
+.row2 div:nth-child(7),
+.row2 div:nth-child(8) {
+    top:100px;
+}
 .row2 div:nth-child(2n),
 .row4 div:nth-child(2n),
 .row6 div:nth-child(2n),
@@ -95,20 +112,91 @@ body {
 .row3 {
     top:200px;
 }
+.row3 div:first-child,
+.row3 div:nth-child(2),
+.row3 div:nth-child(3),
+.row3 div:nth-child(4),
+.row3 div:nth-child(5),
+.row3 div:nth-child(6),
+.row3 div:nth-child(7),
+.row3 div:nth-child(8) {
+    top:200px;
+}
 .row4 {
+    top:300px;
+}
+.row4 div:first-child,
+.row4 div:nth-child(2),
+.row4 div:nth-child(3),
+.row4 div:nth-child(4),
+.row4 div:nth-child(5),
+.row4 div:nth-child(6),
+.row4 div:nth-child(7),
+.row4 div:nth-child(8) {
     top:300px;
 }
 .row5 {
     top:400px;
 }
+.row5 div:first-child,
+.row5 div:nth-child(2),
+.row5 div:nth-child(3),
+.row5 div:nth-child(4),
+.row5 div:nth-child(5),
+.row5 div:nth-child(6),
+.row5 div:nth-child(7),
+.row5 div:nth-child(8) {
+    top:400px;
+}
 .row6 {
+    top:500px;
+}
+.row6 div:first-child,
+.row6 div:nth-child(2),
+.row6 div:nth-child(3),
+.row6 div:nth-child(4),
+.row6 div:nth-child(5),
+.row6 div:nth-child(6),
+.row6 div:nth-child(7),
+.row6 div:nth-child(8) {
     top:500px;
 }
 .row7 {
     top:600px;
 }
+.row7 div:first-child,
+.row7 div:nth-child(2),
+.row7 div:nth-child(3),
+.row7 div:nth-child(4),
+.row7 div:nth-child(5),
+.row7 div:nth-child(6),
+.row7 div:nth-child(7),
+.row7 div:nth-child(8) {
+    top:600px;
+}
 .row8 {
     top:700px;
+}
+.row8 div:first-child,
+.row8 div:nth-child(2),
+.row8 div:nth-child(3),
+.row8 div:nth-child(4),
+.row8 div:nth-child(5),
+.row8 div:nth-child(6),
+.row8 div:nth-child(7),
+.row8 div:nth-child(8) {
+    top:700px;
+}
+.circle1,
+.circle2,
+.circle3,
+.circle4,
+.circle5,
+.circle6 {
+    position:absolute;
+    height:100px;
+    left: 0;
+    right:0;
 }
 .circle1 div,
 .circle2 div,
