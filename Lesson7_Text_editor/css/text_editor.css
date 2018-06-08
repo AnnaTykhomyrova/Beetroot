@@ -18,8 +18,6 @@
 }
 body {
     height:100%;
-}
-body {
     background-color: grey;
     font-family: Georgia, Arial, sans-serif;
 }
@@ -33,7 +31,7 @@ div.vertline {
     border-left: 2px solid #e8eced;
     position: absolute;
     top: 120px;
-    height: 570px;
+    height: 73%;
     bottom: 0;
     left: 245px;
 }
@@ -41,7 +39,6 @@ div.vertline {
     display: block;
     background-color: #FFFFFF;
     color: black;
-    height: 380px;
     width: 700px;
     margin: 120px auto 0 ;
     padding:180px 100px 10px;
@@ -82,7 +79,7 @@ div.vertline {
     right:0;
     background-color: #181818;
     color:#FEFEFE;
-    width: 900px;
+    width: 60%;
     height: 100px;
     text-align: left;
     padding-left: 60px;
@@ -97,7 +94,7 @@ div.vertline {
 }
 .line {
     height:10px;
-    width:900px;
+    width:100%;
     border-bottom:2px solid #303030;
     padding-left:0;
 }
@@ -106,7 +103,7 @@ div.imageline {
     background-color: #f8bd2c;
     right: 0;
     top: 188px;
-    width: 750px;
+    width: 55%;
     padding: 15px 0 15px 25px;
 }
 .imageline a img{
