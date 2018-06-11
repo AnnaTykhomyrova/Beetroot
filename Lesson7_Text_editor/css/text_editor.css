@@ -21,22 +21,22 @@ body {
     background-color: grey;
     font-family: Georgia, Arial, sans-serif;
 }
-.vertline p:first-child {
+.box p:first-of-type {
     font-family: "ProximaNova-Regular", Arial, sans-serif ;
 }
-.vertline h1:first-child {
+.box h1:first-of-type {
     font-family: "FuturaPTHeavy", Arial, sans-serif ;
 }
 div.vertline {
     border-left: 2px solid #e8eced;
     position: absolute;
-    top: 120px;
-    height: 73%;
+    top: 0;
+    height: 100%;
     bottom: 0;
-    left: 245px;
+    left: 55px;
 }
 .box {
-    display: block;
+    position:relative;
     background-color: #FFFFFF;
     color: black;
     width: 700px;

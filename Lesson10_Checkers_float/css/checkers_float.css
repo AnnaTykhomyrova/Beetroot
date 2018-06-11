@@ -8,308 +8,45 @@ html {
     height:100%;
 }
 .conteiner {
-    overflow: hidden;
-    float: left;
-    width:800px;
-    height: 800px;
+    width:810px;
+    margin:0 auto;
     border:5px solid #171312;
+    background-color:#171312;
 }
-.row {
-    float:left;
-    width:800px;
-    height:100px;
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 .row div {
     float:left;
     width: 100px;
     height:100px;
 }
-/* ------------------------------- row1 -----------------------------------*/
-.row1 div:first-child {
-    float: left;
-    background-color: #171312;
-}
-.row1 div:nth-child(2) {
-    float: left;
+.row1 div:nth-child(2n),
+.row2 div:nth-child(2n+1),
+.row3 div:nth-child(2n),
+.row4 div:nth-child(2n+1),
+.row5 div:nth-child(2n),
+.row6 div:nth-child(2n+1),
+.row7 div:nth-child(2n),
+.row8 div:nth-child(2n+1) {
     background-color: #E3CCAB;
 }
-.row1 div:nth-child(3) {
-    float: left;
+.row4 div:nth-child(2n),
+.row5 div:nth-child(2n+1) {
     background-color: #171312;
 }
-.row1 div:nth-child(4) {
-    float: left;
-    background-color: #E3CCAB;
-}
-.row1 div:nth-child(5) {
-    float: left;
-    background-color: #171312;
-}
-.row1 div:nth-child(6) {
-    float: left;
-    background-color: #E3CCAB;
-}
-.row1 div:nth-child(7) {
-    float: left;
-    background-color: #171312;
-}
-.row1 div:nth-child(8) {
-    float: left;
-    background-color: #E3CCAB;
-}
-/* ------------------------------- row2 -----------------------------------*/
-.row2 div:first-child {
-    float: left;
-    background-color: #E3CCAB;
-}
-.row2 div:nth-child(2) {
-    float: left;
-    background-color: #171312;
-}
-.row2 div:nth-child(3) {
-    float: left;
-    background-color: #E3CCAB;
-}
-.row2 div:nth-child(4) {
-    float: left;
-    background-color: #171312;
-}
-.row2 div:nth-child(5) {
-    float: left;
-    background-color: #E3CCAB;
-}
-.row2 div:nth-child(6) {
-    float: left;
-    background-color: #171312;
-}
-.row2 div:nth-child(7) {
-    float: left;
-    background-color: #E3CCAB;
-}
-.row2 div:nth-child(8) {
-    float: left;
-    background-color: #171312;
-}
-/* ------------------------------- row3 -----------------------------------*/
-.row3 div:first-child {
-    float: left;
-    background-color: #171312;
-}
-.row3 div:nth-child(2) {
-    float: left;
-    background-color: #E3CCAB;
-}
-.row3 div:nth-child(3) {
-    float: left;
-    background-color: #171312;
-}
-.row3 div:nth-child(4) {
-    float: left;
-    background-color: #E3CCAB;
-}
-.row3 div:nth-child(5) {
-    float: left;
-    background-color: #171312;
-}
-.row3 div:nth-child(6) {
-    float: left;
-    background-color: #E3CCAB;
-}
-.row3 div:nth-child(7) {
-    float: left;
-    background-color: #171312;
-}
-.row3 div:nth-child(8) {
-    float: left;
-    background-color: #E3CCAB;
-}
-/* ------------------------------- row4 -----------------------------------*/
-.row4 div:first-child {
-    float: left;
-    background-color: #E3CCAB;
-}
-.row4 div:nth-child(2) {
-    float: left;
-    background-color: #171312;
-}
-.row4 div:nth-child(3) {
-    float: left;
-    background-color: #E3CCAB;
-}
-.row4 div:nth-child(4) {
-    float: left;
-    background-color: #171312;
-}
-.row4 div:nth-child(5) {
-    float: left;
-    background-color: #E3CCAB;
-}
-.row4 div:nth-child(6) {
-    float: left;
-    background-color: #171312;
-}
-.row4 div:nth-child(7) {
-    float: left;
-    background-color: #E3CCAB;
-}
-.row4 div:nth-child(8) {
-    float: left;
-    background-color: #171312;
-}
-/* ------------------------------- row5 -----------------------------------*/
-.row5 div:first-child {
-    float: left;
-    background-color: #171312;
-}
-.row5 div:nth-child(2) {
-    float: left;
-    background-color: #E3CCAB;
-}
-.row5 div:nth-child(3) {
-    float: left;
-    background-color: #171312;
-}
-.row5 div:nth-child(4) {
-    float: left;
-    background-color: #E3CCAB;
-}
-.row5 div:nth-child(5) {
-    float: left;
-    background-color: #171312;
-}
-.row5 div:nth-child(6) {
-    float: left;
-    background-color: #E3CCAB;
-}
-.row5 div:nth-child(7) {
-    float: left;
-    background-color: #171312;
-}
-.row5 div:nth-child(8) {
-    float: left;
-    background-color: #E3CCAB;
-}
-/* ------------------------------- row6 -----------------------------------*/
-.row6 div:first-child {
-    float: left;
-    background-color: #E3CCAB;
-}
-.row6 div:nth-child(2) {
-    float: left;
-    background-color: #171312;
-}
-.row6 div:nth-child(3) {
-    float: left;
-    background-color: #E3CCAB;
-}
-.row6 div:nth-child(4) {
-    float: left;
-    background-color: #171312;
-}
-.row6 div:nth-child(5) {
-    float: left;
-    background-color: #E3CCAB;
-}
-.row6 div:nth-child(6) {
-    float: left;
-    background-color: #171312;
-}
-.row6 div:nth-child(7) {
-    float: left;
-    background-color: #E3CCAB;
-}
-.row6 div:nth-child(8) {
-    float: left;
-    background-color: #171312;
-}
-/* ------------------------------- row7 -----------------------------------*/
-.row7 div:first-child {
-    float: left;
-    background-color: #171312;
-}
-.row7 div:nth-child(2) {
-    float: left;
-    background-color: #E3CCAB;
-}
-.row7 div:nth-child(3) {
-    float: left;
-    background-color: #171312;
-}
-.row7 div:nth-child(4) {
-    float: left;
-    background-color: #E3CCAB;
-}
-.row7 div:nth-child(5) {
-    float: left;
-    background-color: #171312;
-}
-.row7 div:nth-child(6) {
-    float: left;
-    background-color: #E3CCAB;
-}
-.row7 div:nth-child(7) {
-    float: left;
-    background-color: #171312;
-}
-.row7 div:nth-child(8) {
-    float: left;
-    background-color: #E3CCAB;
-}
-/* ------------------------------- row8 -----------------------------------*/
-.row8 div:first-child {
-    float: left;
-    background-color: #E3CCAB;
-}
-.row8 div:nth-child(2) {
-    float: left;
-    background-color: #171312;
-}
-.row8 div:nth-child(3) {
-    float: left;
-    background-color: #E3CCAB;
-}
-.row8 div:nth-child(4) {
-    float: left;
-    background-color: #171312;
-}
-.row8 div:nth-child(5) {
-    float: left;
-    background-color: #E3CCAB;
-}
-.row8 div:nth-child(6) {
-    float: left;
-    background-color: #171312;
-}
-.row8 div:nth-child(7) {
-    float: left;
-    background-color: #E3CCAB;
-}
-.row8 div:nth-child(8) {
-    float: left;
-    background-color: #171312;
-}
-/* -----------------дальше не работает--------------------------
 .circle {
-    float: left;
-    height:100px;
-    width: 800px;
-}
-.circle div {
-    float: left;
     width: 100px;
     height: 100px;
     -moz-border-radius: 50px;
     -webkit-border-radius: 50px;
     border-radius: 50px;
 }
-.circle1 div:nth-child(2n+1),
-.circle2 div:nth-child(2n),
-.circle3 div:nth-child(2n+1) {
-    background: saddlebrown;
+.color1 {
+    background-color:saddlebrown;
 }
-.circle1 div:first-child {
-    float: left;
-}
-/*
- #B22B2D;
+.color2 {
+    background-color:#B22B2D;
 }
