@@ -1,52 +1,70 @@
+@font-face {
+    font-family: "SegoeUIRegular";
+    src: url("../fonts/SegoeUIRegular.eot");
+    src: url("../fonts/SegoeUIRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/SegoeUIRegular.woff") format("woff"),
+    url("../fonts/SegoeUIRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "SegoeUIBold";
+    src: url("../fonts/SegoeUIBold.eot");
+    src: url("../fonts/SegoeUIBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/SegoeUIBold.woff") format("woff"),
+    url("../fonts/SegoeUIBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
 * {
     padding:0;
     margin:0;
-    box-sizing: border-box;
-    font-family: "Segoe UI";
+    font-family: "SegoeUIRegular", Arial, sans-serif ;
+}
+.text h2,
+.text2 p,
+.cell h3 {
+    font-family: "SegoeUIBold", Arial, sans-serif ;
 }
 .conteiner,
 h2,
-.text p {
-    color: white;
-}
-.about,
-.text2 p,
-.cell1 h3,
-.cell2 h3,
-.cell3 h3 {
-    color: rgb(70, 75, 79);
-}
-.cell1 p,
-.cell2 p,
-.cell3 p {
-    color: rgb(136,138,139);
+.text p{
+    color:white;
 }
 .conteiner {
     position:relative;
-    background: url("../img/bg_dark.jpg");
+    background-image: url("../img/bg_dark.jpg");
     height: 100vh;
 }
-img {
+.conteiner2 {
+    background: url("../img/bg_white.jpg") center;
+}
+.logo {
     display: block;
-    width:50px;
+    height: 130px;
+    width:130px;
     margin: 0 auto;
+    padding-top: 50px;
+}
+a img {
+    display: block;
+    width: 12px;
+    height: 9px;
+    margin: 10px auto 0;
 }
 h2 {
     text-transform: uppercase;
     font-size: 80px;
     font-weight: bold;
-    margin-top:75px;
-    padding-bottom:63px;
+    padding-bottom: 70px;
 }
 .text p {
     font-size: 18px;
-    text-align: center;
-    padding-bottom:100px;
 }
 .text {
-    width: 60%;
+    max-width: 60%;
+    margin: 120px auto;
     text-align: center;
-    margin: 0 auto;
 }
 .circle {
     position:absolute;
@@ -55,22 +73,28 @@ h2 {
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
-    bottom:0;
+    bottom:13px;
     -moz-border-radius: 50px;
     -webkit-border-radius: 50px;
     border-radius: 50px;
     border: 1px solid white;
     background:transparent;
 }
+.about,
+.text2 p,
+.cell1 h3,
+.cell2 h3,
+.cell3 h3{
+    color:rgb(70,75,79);
+}
 .about {
     width: 863px;
     font-size: 30px;
     text-align: center;
-    margin:0 auto;
-    padding-top: 140px;
+    margin: 125px auto 0;
 }
-.about p:first-child {
-    padding-bottom: 30px;
+.about p:nth-child(2) {
+    padding-bottom: 65px;
 }
 .text2 p {
     width: 780px;
@@ -82,35 +106,22 @@ h2 {
 }
 .cells {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     padding-bottom:100px;
 }
 .cells div{
     text-align: left;
 }
-.cell1 h3 {
-    font-size: 18px;
-    font-weight: bold;
-}
-.cell1 p {
+.cell1 p,
+.cell2 p,
+.cell3 p {
+    color:rgb(136,138,139);
     width: 300px;
     font-size: 18px;
-    padding-right:10px;
 }
-.cell2 h3 {
-    font-size: 18px;
-    font-weight: bold;
-}
-.cell2 p {
-    width: 300px;
-    font-size: 18px;
-    padding-right:10px;
-}
+.cell1 h3,
+.cell2 h3,
 .cell3 h3 {
     font-size: 18px;
     font-weight: bold;
-}
-.cell3 p {
-    width: 300px;
-    font-size: 18px;
 }
