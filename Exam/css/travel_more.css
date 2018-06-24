@@ -1,0 +1,343 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    border: 15px solid white;
+}
+
+.container1 {
+    height: 100vh;
+    background-image: url("../img/bg1.jpg");
+    color: rgb(255,255,255);
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container1 h1 {
+    font-size: 48px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 285px;
+    padding-bottom: 15px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.container1 p:first-of-type {
+    position: relative;
+    font-size: 22px;
+    letter-spacing: 7px;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.container1 input[type="search"] {
+    position: relative;
+    width: 650px;
+    height: 60px;
+    left: 50%;
+    margin-left: -325px;
+    margin-bottom: 120px;
+    font-size: 14px;
+    letter-spacing: 3px;
+    line-height: 26px;
+    color: rgb(153,153,153);
+    text-align: center;
+}
+
+.container1 p:last-of-type {
+    font-size: 14px;
+    letter-spacing: 3px;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.container1 img {
+    position: absolute;
+    left: 50%;
+    margin-left: -6.5px;
+}
+/*-----------------------------------------------------------page 2---------------------------------------------------*/
+.container2 {
+    position: relative;
+    height: 100vh;
+    background-image: url("../img/bg2.png");
+}
+
+.container2 header {
+    height: 80px;
+    color: white;
+    background: #5474fd;
+}
+
+.container2 header h3 {
+    text-transform: uppercase;
+    width: 170px;
+    font-size: 24px;
+    letter-spacing: 2px;
+    line-height: 26px;
+    color: rgb(255,255,255);
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.container2 header a {
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 26px;
+    font-family: "Aleo";
+    width: 135px;
+}
+
+.container2 header .links {
+    position: relative;
+    left: 330px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 540px;
+}
+
+.container2 main {
+    padding-left: 20px;
+}
+
+.container2 main h2 {
+    padding-top: 200px;
+    margin-bottom: 70px;
+    font-size: 36px;
+    color: rgb(255,255,255);
+    font-family: "Aleo";
+}
+
+.container2 main p {
+    width: 539px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 26px;
+    color: rgb(232,232,232);
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container2 main p:last-of-type {
+    padding-top: 40px;
+    margin-bottom: 38px;
+}
+
+.container2 main button {
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 26px;
+    color: rgb(255,255,255);
+    font-family: "Aleo";
+    width: 225px;
+    height: 60px;
+    background-color: #5474fd;
+    border: none;
+    text-transform: uppercase;
+}
+
+.container2 main img[alt="image1"] {
+    position: absolute;
+    top: 200px;
+    right: 220px;
+}
+
+.container2 main img[alt="image2"] {
+    position: absolute;
+    top: 420px;
+    right: 100px;
+}
+
+footer {
+    height: 335px;
+    background-color: #333333;
+    padding-top: 100px;
+}
+
+.container2 footer p {
+    font-size: 36px;
+    color: rgb(232,232,232);
+    font-family: "Aleo";
+    text-align: center;
+}
+
+.container2 footer .images,
+.container2 footer .paragraphs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+/*--------------------------------------------page3---------------------------------------------------------------*/
+.container3 {
+    position: relative;
+    background-image: url("../img/bg3.jpg");
+    height: 700px;
+}
+
+.container3 .rectangle {
+    position: absolute;
+    width: 540px;
+    background-color: #232323;
+    opacity: 0.9;
+    bottom: 95px;
+    left: 20px;
+}
+
+.container3 .rectangle p:first-child {
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 26px;
+    color: rgb(232,232,232);
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 50px;
+    padding-bottom: 35px;
+}
+
+.container3 .rectangle p:first-child,
+.container3 .rectangle p:nth-child(2),
+.container3 .rectangle p:nth-child(3){
+    padding-left: 30px;
+}
+
+.container3 .rectangle p:nth-child(2) {
+    font-size: 20px;
+    line-height: 26px;
+    color: rgb(255,255,255);
+    font-family: 'Josefin Sans', sans-serif;
+    padding-bottom: 30px;
+}
+
+.container3 .rectangle p:nth-child(3) {
+    width: 479px;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgb(232,232,232);
+    font-family: 'Josefin Sans', sans-serif;
+    padding-bottom: 50px;
+}
+
+.container3 .rectangle button {
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 26px;
+    color: rgb(255,255,255);
+    font-family: "Aleo";
+    width: 225px;
+    height: 60px;
+    background-color: #5474fd;
+    border: none;
+    text-transform: uppercase;
+    padding-bottom: 50px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+/*---------------------------------------------------page4-----------------------------------------------------------*/
+.container4 {
+    position: relative;
+    background-image: url("../img/bg4.jpg");
+    height: 700px;
+}
+
+.container4 .rectangle1 {
+    position: absolute;
+    width: 540px;
+    background-color: #232323;
+    opacity: 0.9;
+    top: 230px;
+    right: 20px;
+}
+
+.container4 .rectangle1 p:first-child {
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 26px;
+    color: rgb(232,232,232);
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 50px;
+    padding-bottom: 35px;
+}
+
+.container4 .rectangle1 p:first-child,
+.container4 .rectangle1 p:nth-child(2),
+.container4 .rectangle1 p:nth-child(3){
+    padding-left: 30px;
+}
+
+.container4 .rectangle1 p:nth-child(2) {
+    font-size: 20px;
+    line-height: 26px;
+    color: rgb(255,255,255);
+    font-family: 'Josefin Sans', sans-serif;
+    padding-bottom: 30px;
+}
+
+.container4 .rectangle1 p:nth-child(3) {
+    width: 479px;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgb(232,232,232);
+    font-family: 'Josefin Sans', sans-serif;
+    padding-bottom: 50px;
+}
+
+.container4 .rectangle1 button {
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 26px;
+    color: rgb(255,255,255);
+    font-family: "Aleo";
+    width: 225px;
+    height: 60px;
+    background-color: #5474fd;
+    border: none;
+    text-transform: uppercase;
+    padding-bottom: 50px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+/*---------------------------------------------------page5-----------------------------------------------------------*/
+.container5 {
+    position: relative;
+    background-image: url("../img/bg5.png");
+    height: 730px;
+}
+
+.container5 h3 {
+    font-size: 36px;
+    color: rgb(255,255,255);
+    font-family: "Aleo";
+    text-align: center;
+}
+
+.container5 .inside {
+    position: absolute;
+    width: 1115px;
+    height: 284px;
+    background-color: #333333;
+    top:50%;
+    left:50%;
+    margin-left: -557.5px;
+    margin-top: -142px;
+}
+
+
+
